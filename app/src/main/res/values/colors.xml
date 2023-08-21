@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mallSampah">#009143</color>
+    <color name="biru">#068FFF</color>
+    <color name="birubisnis">#337BD5</color>
+    <color name="orange">#F47B31</color>
+    <color name="merah">#D5434C</color>
+</resources>

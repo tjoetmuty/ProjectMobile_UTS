@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".aboutus">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="411dp"
+        android:layout_height="57dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/back2"
+            android:layout_width="31dp"
+            android:layout_height="31dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="359dp"
+            android:layout_marginBottom="12dp"
+            app:srcCompat="@drawable/pre" />
+
+        <TextView
+            android:id="@+id/mix"
+            android:layout_width="111dp"
+            android:layout_height="24dp"
+            android:layout_alignStart="@+id/back2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="157dp"
+            android:layout_marginBottom="17dp"
+            android:fontFamily="@font/poppins"
+            android:text="Service"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="417dp"
+        android:layout_height="774dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/hijaumuda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/billsrl"
+            android:layout_width="wrap_content"
+            android:layout_height="92dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="565dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="117dp"
+            android:background="@drawable/round_border">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="275dp"
+                android:layout_marginTop="27dp"
+                android:layout_marginEnd="17dp"
+                android:layout_marginBottom="26dp"
+                app:srcCompat="@drawable/nextt" />
+
+            <TextView
+                android:id="@+id/msbills"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="19dp"
+                android:drawableStart="@drawable/ms_bills"
+                android:drawablePadding="12dp"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="12dp"
+                android:text="MS Bills"
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/pointrl"
+            android:layout_width="wrap_content"
+            android:layout_height="82dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="467dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="225dp"
+            android:background="@drawable/round_border">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="275dp"
+                android:layout_marginTop="27dp"
+                android:layout_marginEnd="17dp"
+                android:layout_marginBottom="26dp"
+                app:srcCompat="@drawable/nextt" />
+
+            <TextView
+                android:id="@+id/mspoint"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="19dp"
+                android:drawableStart="@drawable/ms_point"
+                android:drawablePadding="12dp"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="12dp"
+                android:text="MS Point"
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/eventrl"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="356dp"
+            android:layout_marginEnd="52dp"
+            android:layout_marginBottom="338dp"
+            android:background="@drawable/round_border">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="275dp"
+                android:layout_marginTop="27dp"
+                android:layout_marginEnd="17dp"
+                android:layout_marginBottom="26dp"
+                app:srcCompat="@drawable/nextt" />
+
+            <TextView
+                android:id="@+id/event"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="19dp"
+                android:drawableStart="@drawable/event"
+                android:drawablePadding="12dp"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="12dp"
+                android:text="Event"
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/businessrl"
+            android:layout_width="wrap_content"
+            android:layout_height="86dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="253dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="435dp"
+            android:background="@drawable/round_border">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="275dp"
+                android:layout_marginTop="27dp"
+                android:layout_marginEnd="17dp"
+                android:layout_marginBottom="26dp"
+                app:srcCompat="@drawable/nextt" />
+
+            <TextView
+                android:id="@+id/business"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="19dp"
+                android:drawableStart="@drawable/company"
+                android:drawablePadding="12dp"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="12dp"
+                android:text="Company"
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/dropoffrl"
+            android:layout_width="wrap_content"
+            android:layout_height="78dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="148dp"
+            android:layout_marginEnd="52dp"
+            android:layout_marginBottom="548dp"
+            android:background="@drawable/round_border">
+
+            <ImageView
+                android:id="@+id/tomboldrop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="275dp"
+                android:layout_marginTop="27dp"
+                android:layout_marginEnd="17dp"
+                android:layout_marginBottom="26dp"
+                app:srcCompat="@drawable/nextt" />
+
+            <TextView
+                android:id="@+id/dropoff"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="19dp"
+                android:drawableStart="@drawable/drop_off"
+                android:drawablePadding="12dp"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="12dp"
+                android:text="Drop Off"
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/everyonerl"
+            android:layout_width="wrap_content"
+            android:layout_height="83dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="43dp"
+            android:layout_marginEnd="52dp"
+            android:layout_marginBottom="648dp"
+            android:background="@drawable/round_border">
+
+            <TextView
+                android:id="@+id/everyone"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="19dp"
+                android:drawableStart="@drawable/pick_up"
+                android:drawablePadding="12dp"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="12dp"
+                android:text="Pick Up"
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/tombolpick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="275dp"
+                android:layout_marginTop="27dp"
+                android:layout_marginEnd="17dp"
+                android:layout_marginBottom="26dp"
+                app:srcCompat="@drawable/nextt" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
